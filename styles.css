@@ -44,6 +44,10 @@ padding-right: 20px;
     color: #ffffff;
 }
 
+.navtext:hover {
+    color: #a9ccff;
+}
+
 
 ul {
     display: flex;
@@ -53,4 +57,27 @@ ul {
     display: flex;
     width: 100%;
     flex-basis: content;
+    margin-bottom: 150px;
+}
+
+/* body styles */
+
+#generalcontainer{
+    margin-left: 33%;
+    margin-right: 33%;
+    display: inline-block;
+    
+}
+
+.title{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.normaltext{
+    letter-spacing: 0.1px;
+    color: white;
+}
+#emptycontainer{
+    height: 40px;
 }
