@@ -1,3 +1,16 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    
+}
+
+body{
+    background-color: #3A1078;
+}
+
+
 li {
     list-style: none;
 }
@@ -6,20 +19,38 @@ a {
     text-decoration: none;
 }
 
+/* nav styles */
+
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #512B81;
+    background-color: #4E31AA;
+    width: 33%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-left: 33%;
 }
 
 .navbar ul li {
-    margin-right: 20px;
+
+padding-left: 20px;
+padding-right: 20px;
+
+
 }
 
 .navtext {
-    color: #8CABFF;
+    color: #ffffff;
 }
 
-.navbar {
-    padding: 20px;
+
+ul {
+    display: flex;
+}
+
+#navcontainer {
+    display: flex;
+    width: 100%;
+    flex-basis: content;
 }
